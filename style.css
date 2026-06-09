@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body{
+    background: #ffffff;
+}
+
+
+header{
+    background: #34495e;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.hero{
+    height: 50vh;
+    text-align: center;
+    padding-top: 120px;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://static.vecteezy.com/system/resources/previews/040/888/771/non_2x/ai-generated-examine-the-significance-of-debugging-tools-and-techniques-in-the-programming-workflow-and-evaluate-how-they-contribute-to-improving-code-quality-and-efficiency-free-photo.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero-content p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    background: #e74c3c;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background: #c0392b;
+}
+
+
+section{
+    padding: 60px 30px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+section h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #34495e;
+    text-decoration: underline;
+}
+
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img{
+    width: 350px;
+    margin: 15px;
+    border: 5px solid #34495e;
+}
+
+.gallery img:hover{
+    border-color: #e74c3c;
+}
+
+
+table{
+    width: 100%;
+    margin: 20px auto;
+    background: white;
+}
+
+table, th, td{
+    border: 2px solid #34495e;
+}
+
+th{
+    background: #34495e;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+td{
+    padding: 15px;
+    text-align: left;
+}
+
+tr:hover{
+    background: #ecf0f1;
+}
+
+
+.contact-form{
+    margin-top: 30px;
+}
+
+form{
+    width: 500px;
+    margin: 0 auto;
+    background: #ecf0f1;
+    padding: 40px;
+    border: 3px solid #34495e;
+}
+
+form h3{
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #34495e;
+    font-size: 16px;
+}
+
+button{
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover{
+    background: #c0392b;
+}
+
+
+footer{
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
